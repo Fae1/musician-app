@@ -4,6 +4,14 @@ const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
 const schema = require('../store/schema');
 
+//thalita
+router.get('/', (req, res) => {
+  return res.json({  “Matéria”: “Arquitetura de Storage / DataCenter/ Virtualização e Microcontainers”,
+  “Professor”: “Josue Vidal”,
+  “Turma”: "36ASO",
+  “Grupo”: [“Bruno Monti”, “Rafael Jesus”, “Thalita Silva”]  });
+});
+
 // healthcheck
 router.get('/health', (req, res) => {
   res.status('200').send("Status: ok!");
