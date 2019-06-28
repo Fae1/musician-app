@@ -5,7 +5,7 @@ const jsonParser = bodyParser.json();
 const schema = require('../store/schema');
 
 //thalita
-router.get('/', (req, res) => {
+router.get('/thalita', (req, res) => {
   return res.json({  “Matéria”: “Arquitetura de Storage / DataCenter/ Virtualização e Microcontainers”,
   “Professor”: “Josue Vidal”,
   “Turma”: "36ASO",
