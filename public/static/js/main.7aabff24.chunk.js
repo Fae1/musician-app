@@ -279,7 +279,7 @@
                                 className: "field"
                             }, i.a.createElement("div", {
                                 className: "control"
-                            }, /* i.a.createElement("input", {
+                            },  i.a.createElement("input", {
                                 className: "input is-medium",
                                 type: "text",
                                 placeholder: "Enter first name",
@@ -314,7 +314,7 @@
                                 className: "button is-primary is-medium"
                             }, "Add musician"))))), i.a.createElement("div", {
                                 className: "column is-two-thirds"
-                            },  */
+                            },  
 
 							this.state.musicians.map(function(a, t) {
                                 return i.a.createElement(j, {
