@@ -5,7 +5,7 @@ const jsonParser = bodyParser.json();
 const schema = require('../store/schema');
 
 // healthcheck
-router.get('/teste', (req, res) => {
+router.get('/healthcheck', (req, res) => {
   res.status('200').send("Status: Aplicacao Grupo 1!");
 });
 
