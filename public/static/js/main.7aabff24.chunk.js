@@ -132,7 +132,7 @@
                 }(n.Component),
                 O = t(15),
                 M = t.n(O),
-                /* y = function(e) {
+                 y = function(e) {
                     function a() {
                         var e, t;
                         Object(r.a)(this, a);
@@ -331,7 +331,7 @@
                             }))))))
                         }
                     }]), a
-                }(n.Component); */
+                }(n.Component);
 
             function C() {
                 return i.a.createElement(n.Fragment, null, i.a.createElement(f, null), i.a.createElement(y, null))
