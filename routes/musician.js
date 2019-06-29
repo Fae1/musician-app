@@ -6,7 +6,7 @@ const schema = require('../store/schema');
 
 
 router.get('/rafael', (req, res) => {
-  res.status('200').send("teste ok");
+  res.status('200').send("Arquitetura de Storage /Data Center / Virtualização e Microcontainers");
 });
 
 
