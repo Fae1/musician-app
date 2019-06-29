@@ -335,7 +335,7 @@ musician-app/public/static/js/main.7aabff24.chunk.js
                                 value: this.state.newmusician.genre,
                                 onChange: this.onAddMusicianGenreChange
                             }))),
-							
+							*/
 							i.a.createElement("div", {
                                 className: "field"
                             }, i.a.createElement("div", {
@@ -346,7 +346,7 @@ musician-app/public/static/js/main.7aabff24.chunk.js
                             }, "Add musician"))))), i.a.createElement("div", {
                                 className: "column is-two-thirds"
                             },
-							*/
+							
 							this.state.musicians.map(function(a, t) {
                                 return i.a.createElement(j, {
                                     isAdmin: !0,
