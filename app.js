@@ -9,7 +9,8 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 // include routes
-app.use('/musician', musicianRoutes);
+//app.use('/musician', musicianRoutes);
+app.use('/Grupo36ASO', musicianRoutes);
 
 app.use(express.static('public'));
 
