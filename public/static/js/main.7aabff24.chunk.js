@@ -1,3 +1,28 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@ThalitaSilva1995
+
+0
+0
+
+    18
+
+Fae1/musician-app forked from jspruance/musician-app
+Code
+Pull requests 0
+Projects 0
+Wiki
+Security
+Insights
+musician-app/public/static/js/main.7aabff24.chunk.js
+@ThalitaSilva1995 ThalitaSilva1995 Update main.7aabff24.chunk.js 16f27b3 1 minute ago
+@ThalitaSilva1995
+@jspruance
+381 lines (376 sloc) 19.6 KB
 (window.webpackJsonp = window.webpackJsonp || []).push([
     [0], {
         29: function(e, a, t) {
@@ -310,7 +335,7 @@
                                 value: this.state.newmusician.genre,
                                 onChange: this.onAddMusicianGenreChange
                             }))),
-							*/
+							
 							i.a.createElement("div", {
                                 className: "field"
                             }, i.a.createElement("div", {
@@ -320,7 +345,9 @@
                                 className: "button is-primary is-medium"
                             }, "Add musician"))))), i.a.createElement("div", {
                                 className: "column is-two-thirds"
-                            }, this.state.musicians.map(function(a, t) {
+                            },
+							*/
+							this.state.musicians.map(function(a, t) {
                                 return i.a.createElement(j, {
                                     isAdmin: !0,
                                     handleUpdateMusician: e.handleUpdateMusician,
@@ -378,3 +405,18 @@
         [29, 1, 2]
     ]
 ]);
+
+    © 2019 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
