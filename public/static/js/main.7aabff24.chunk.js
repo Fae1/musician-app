@@ -257,7 +257,7 @@
                             t.fetchMusicians()
                         }, t
                     }
-                    return Object(o.a)(a, e), Object(l.a)(a, [{
+                     /* return Object(o.a)(a, e), Object(l.a)(a, [{
                         key: "render",
                         value: function() {
                             var e = this;
@@ -331,7 +331,7 @@
                             }))))))
                         }
                     }]), a
-                }(n.Component);
+                }(n.Component); */
 
             function C() {
                 return i.a.createElement(n.Fragment, null, i.a.createElement(f, null), i.a.createElement(y, null))
