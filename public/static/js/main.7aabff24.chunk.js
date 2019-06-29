@@ -132,7 +132,7 @@
                 }(n.Component),
                 O = t(15),
                 M = t.n(O),
-                y = function(e) {
+                /* y = function(e) {
                     function a() {
                         var e, t;
                         Object(r.a)(this, a);
@@ -257,7 +257,7 @@
                             t.fetchMusicians()
                         }, t
                     }
-                     /* return Object(o.a)(a, e), Object(l.a)(a, [{
+                      return Object(o.a)(a, e), Object(l.a)(a, [{
                         key: "render",
                         value: function() {
                             var e = this;
